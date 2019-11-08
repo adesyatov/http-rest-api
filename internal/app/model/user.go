@@ -1,7 +1,7 @@
 package model
 
-type PeopleTemp struct {
-	Idpeopletemp      int
+type User struct {
+	Iduser            int
 	Email             string
 	EncryptedPassword string
 }

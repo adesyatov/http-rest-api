@@ -2,4 +2,4 @@ bind_addr = ":8080"
 log_level = "debug"
 
 [store]
-database_url = "sqlserver://user:password@localhost?database=dev_db&connection+timeout=30&app+name=http-rest-api"
+database_url = "sqlserver://testuser:testuser123@localhost?database=testdb&connection+timeout=30&app+name=http-rest-api"

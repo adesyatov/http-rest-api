@@ -12,7 +12,7 @@ var (
 func TestMain(m *testing.M) {
 	databaseURL = os.Getenv("DATABASE_URL")
 	if databaseURL == "" {
-		databaseURL = "sqlserver://user:password@localhost?database=dev_db&connection+timeout=30&app+name=http-rest-api"
+		databaseURL = "sqlserver://testuser:testuser123@localhost?database=testdb_testing&connection+timeout=30&app+name=http-rest-api"
 	}
 	os.Exit(m.Run())
 }
